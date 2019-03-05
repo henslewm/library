@@ -1,0 +1,25 @@
+{
+  "device": {
+    "id": "esp8266_37CBE6"
+  },
+  "aws": {
+    "thing_name": "esp8266_37CBE6"
+  },
+  "wifi": {
+    "sta": {
+      "enable": true,
+      "ssid": "PemCafe1",
+      "pass": "3au5j75^s7lk",
+      "ip": "192.168.1.102",
+      "netmask": "255.255.0.0",
+      "gw": "192.168.1.1",
+      "dhcp_hostname": "37CBE6"
+    },
+    "ap": {
+      "enable": false
+    }
+  },
+  "sntp": {
+    "enable": false
+  }
+}

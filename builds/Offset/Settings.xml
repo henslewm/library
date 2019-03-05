@@ -1,0 +1,173 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>18.0f1</Version>
+<Cluster>
+<Name>Settings in</Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>Hardware Configuration</Name>
+<NumElts>3</NumElts>
+<Refnum>
+<Name>COM Port</Name>
+<RefKind>VISA</RefKind>
+<Val>COM1</Val>
+</Refnum>
+<DBL>
+<Name>Reference Distance</Name>
+<Val>2.22700000000000</Val>
+</DBL>
+<String>
+<Name>Sensor SN</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>Logging Configuration</Name>
+<NumElts>3</NumElts>
+<Path>
+<Name>Log File Base Path</Name>
+<Val>C:\Users\CIL\Documents\LabVIEW Data\Microwave Offsets</Val>
+</Path>
+<Refnum>
+<Name>Datafile Ref</Name>
+<RefKind>Byte Stream File</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>Database Ref</Name>
+<RefKind>Data Log File</RefKind>
+<Val>0x80000000</Val>
+</Refnum>
+</Cluster>
+<Cluster>
+<Name>UI Refs</Name>
+<NumElts>11</NumElts>
+<Refnum>
+<Name>Start Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x37E00000</Val>
+</Refnum>
+<Refnum>
+<Name>Settings Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x38100003</Val>
+</Refnum>
+<Refnum>
+<Name>Stop Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x37F00001</Val>
+</Refnum>
+<Refnum>
+<Name>Exit Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x38000002</Val>
+</Refnum>
+<Refnum>
+<Name>Status Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x38D0000F</Val>
+</Refnum>
+<Refnum>
+<Name>Data Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x3890000B</Val>
+</Refnum>
+<Refnum>
+<Name>StatusBox Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x39100013</Val>
+</Refnum>
+<Refnum>
+<Name>Location Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x39000012</Val>
+</Refnum>
+<Refnum>
+<Name>Operator Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x38C0000E</Val>
+</Refnum>
+<Refnum>
+<Name>Time Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x38F00011</Val>
+</Refnum>
+<Refnum>
+<Name>Test in Progess Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x38E00010</Val>
+</Refnum>
+</Cluster>
+<Cluster>
+<Name>Calibration Data</Name>
+<NumElts>12</NumElts>
+<U16>
+<Name>calibrationID</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>operatorID</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>sensorID</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>start_time</Name>
+<Val></Val>
+</String>
+<String>
+<Name>end_time</Name>
+<Val></Val>
+</String>
+<DBL>
+<Name>offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>offset_units</Name>
+<Val>m</Val>
+</String>
+<DBL>
+<Name>ring_time</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>error</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<U8>
+<Name>Passed</Name>
+<Val>0</Val>
+</U8>
+<String>
+<Name>data_storage_location</Name>
+<Val></Val>
+</String>
+<String>
+<Name>comments</Name>
+<Val></Val>
+</String>
+</Cluster>
+<U16>
+<Name>Time Elapsed</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Samples Required</Name>
+<Val>500</Val>
+</U16>
+</Cluster>
+</LVData>
