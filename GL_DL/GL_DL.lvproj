@@ -51,7 +51,6 @@
 			<Item Name="Processing Loop State.ctl" Type="VI" URL="../controls/Processing Loop State.ctl"/>
 		</Item>
 		<Item Name="GLDL Main.vi" Type="VI" URL="../GLDL Main.vi"/>
-		<Item Name="Create Folder if Doesn&apos;t Exist.vi" Type="VI" URL="../../Create Folder if Doesn&apos;t Exist.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
