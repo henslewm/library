@@ -1,0 +1,75 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>17.0</Version>
+<Cluster>
+<Name>Settings in</Name>
+<NumElts>3</NumElts>
+<Cluster>
+<Name>Hardware Configuration</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>HW Refnum &lt;Replace Me&gt;</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Signal Type &lt;Replace Me&gt;</Name>
+<Choice>Sine Wave</Choice>
+<Choice>Square with Noise</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>Logging Configuration</Name>
+<NumElts>2</NumElts>
+<Path>
+<Name>Log File Base Path</Name>
+<Val>C:\Users\dev\Documents\LabVIEW Data\Logged Data.tdms</Val>
+</Path>
+<Refnum>
+<Name>TDMS File Reference</Name>
+<RefKind>TDMS File</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+</Cluster>
+<Cluster>
+<Name>UI Refs</Name>
+<NumElts>6</NumElts>
+<Refnum>
+<Name>Start Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xFD700137</Val>
+</Refnum>
+<Refnum>
+<Name>Settings Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xFDA0011E</Val>
+</Refnum>
+<Refnum>
+<Name>Stop Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xFD80011D</Val>
+</Refnum>
+<Refnum>
+<Name>Exit Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xFD900046</Val>
+</Refnum>
+<Refnum>
+<Name>Status Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xFE2000FB</Val>
+</Refnum>
+<Refnum>
+<Name>Data Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0xFE3000EF</Val>
+</Refnum>
+</Cluster>
+</Cluster>
+</LVData>
