@@ -39,7 +39,7 @@
 			<Item Name="Compute Offset.vi" Type="VI" URL="../Support/Compute Offset.vi"/>
 			<Item Name="UI Message Loop_Start_InitializeFP.vi" Type="VI" URL="../Support/UI Message Loop_Start_InitializeFP.vi"/>
 			<Item Name="Data Display Loop.vi" Type="VI" URL="../Support/Data Display Loop.vi"/>
-			<Item Name="Adjust Grpah Scale.vi" Type="VI" URL="../Support/Adjust Grpah Scale.vi"/>
+			<Item Name="Adjust GraphScale.vi" Type="VI" URL="../Support/Adjust GraphScale.vi"/>
 			<Item Name="ParseSQLOperatorResults.vi" Type="VI" URL="../Support/ParseSQLOperatorResults.vi"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
