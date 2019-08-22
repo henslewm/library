@@ -1,6 +1,6 @@
 <?xml version='1.0' standalone='yes' ?>
 <LVData xmlns="http://www.ni.com/LVData">
-<Version>18.0f1</Version>
+<Version>18.0f2</Version>
 <Cluster>
 <Name>Settings in</Name>
 <NumElts>6</NumElts>
@@ -10,15 +10,15 @@
 <Refnum>
 <Name>COM Port</Name>
 <RefKind>VISA</RefKind>
-<Val></Val>
+<Val>COM18</Val>
 </Refnum>
 <DBL>
 <Name>Reference Distance</Name>
-<Val>0.00000000000000</Val>
+<Val>0.91400000000000</Val>
 </DBL>
 <String>
 <Name>Sensor SN</Name>
-<Val></Val>
+<Val>Y13   YSI   NILE 00A6H104220V034</Val>
 </String>
 </Cluster>
 <Cluster>
@@ -31,12 +31,12 @@
 <Refnum>
 <Name>Datafile Ref</Name>
 <RefKind>Byte Stream File</RefKind>
-<Val>0x00000000</Val>
+<Val>0xD0900000</Val>
 </Refnum>
 <Refnum>
 <Name>Database Ref</Name>
 <RefKind>Data Log File</RefKind>
-<Val>0x00000000</Val>
+<Val>0x03B00000</Val>
 </Refnum>
 </Cluster>
 <Cluster>
@@ -46,67 +46,67 @@
 <Name>Start Ref</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x00000000</Val>
+<Val>0xFFB0000D</Val>
 </Refnum>
 <Refnum>
 <Name>Settings Ref</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x00000000</Val>
+<Val>0xFFE00047</Val>
 </Refnum>
 <Refnum>
 <Name>Stop Ref</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x00000000</Val>
+<Val>0xFFC00045</Val>
 </Refnum>
 <Refnum>
 <Name>Exit Ref</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x00000000</Val>
+<Val>0xFFD0000C</Val>
 </Refnum>
 <Refnum>
 <Name>Status Ref</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x00000000</Val>
+<Val>0x01300035</Val>
 </Refnum>
 <Refnum>
 <Name>Data Ref</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x00000000</Val>
+<Val>0x00700059</Val>
 </Refnum>
 <Refnum>
 <Name>StatusBox Ref</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x00000000</Val>
+<Val>0x01700030</Val>
 </Refnum>
 <Refnum>
 <Name>Location Ref</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x00000000</Val>
+<Val>0x0160002D</Val>
 </Refnum>
 <Refnum>
 <Name>Operator Ref</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x00000000</Val>
+<Val>0x0120002F</Val>
 </Refnum>
 <Refnum>
 <Name>Time Ref</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x00000000</Val>
+<Val>0x0150001E</Val>
 </Refnum>
 <Refnum>
 <Name>Test in Progess Ref</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0x00000000</Val>
+<Val>0x01400017</Val>
 </Refnum>
 </Cluster>
 <Cluster>
@@ -118,27 +118,27 @@
 </U16>
 <U16>
 <Name>operatorID</Name>
-<Val>0</Val>
+<Val>5</Val>
 </U16>
 <U16>
 <Name>sensorID</Name>
-<Val>0</Val>
+<Val>54</Val>
 </U16>
 <String>
 <Name>start_time</Name>
-<Val></Val>
+<Val>08/22/2019 14:01:36</Val>
 </String>
 <String>
 <Name>end_time</Name>
-<Val></Val>
+<Val>08/22/2019 14:03:17</Val>
 </String>
 <DBL>
 <Name>offset</Name>
-<Val>0.00000000000000</Val>
+<Val>-3.00000000000011E-3</Val>
 </DBL>
 <String>
 <Name>offset_units</Name>
-<Val></Val>
+<Val>m</Val>
 </String>
 <DBL>
 <Name>ring_time</Name>
@@ -154,7 +154,7 @@
 </U8>
 <String>
 <Name>data_storage_location</Name>
-<Val></Val>
+<Val>C:\Users\dev\Documents\LabVIEW Data\Logged Data.log\Y13   YSI   NILE 00A6H104220V034\2019_08_22_14_01.log</Val>
 </String>
 <String>
 <Name>comments</Name>
@@ -167,7 +167,7 @@
 </U16>
 <U16>
 <Name>Samples Required</Name>
-<Val>0</Val>
+<Val>360</Val>
 </U16>
 </Cluster>
 </LVData>
