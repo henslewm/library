@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="17008000">
+<Project Type="Project" LVVersion="19008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -27,8 +27,8 @@
 		</Item>
 		<Item Name="Support VIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Message Queue.lvlib" Type="Library" URL="../support/Message Queue/Message Queue.lvlib"/>
-			<Item Name="User Event - Stop.lvlib" Type="Library" URL="../support/User Event - Stop/User Event - Stop.lvlib"/>
+			<Item Name="Message Queue.lvlib" Type="Library" URL="../Support/Message Queue/Message Queue.lvlib"/>
+			<Item Name="User Event - Stop.lvlib" Type="Library" URL="../Support/User Event - Stop/User Event - Stop.lvlib"/>
 			<Item Name="Set Enable State on Multiple Controls.vi" Type="VI" URL="../Support/Set Enable State on Multiple Controls.vi"/>
 			<Item Name="Check Loop Error.vi" Type="VI" URL="../Support/Check Loop Error.vi"/>
 			<Item Name="Error Handler - Event Handling Loop.vi" Type="VI" URL="../Support/Error Handler - Event Handling Loop.vi"/>
